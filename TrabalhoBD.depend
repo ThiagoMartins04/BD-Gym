@@ -1,0 +1,56 @@
+# depslib dependency file v1.0
+1782695856 source:c:\users\admin\desktop\trabalhobd\trabalhobd\main.cpp
+	<iostream>
+	<cstdlib>
+	"menu.h"
+	"conexaoBD.h"
+
+1782702559 source:c:\users\admin\desktop\trabalhobd\trabalhobd\menu.cpp
+	"menu.h"
+	<iostream>
+
+1782705871 c:\users\admin\desktop\trabalhobd\trabalhobd\menu.h
+	<cstdlib>
+	<string>
+	"conexaoBD.h"
+	"usuario.h"
+	"aluno.h"
+
+1782683706 c:\users\admin\desktop\trabalhobd\trabalhobd\conexaobd.h
+	<cstdlib>
+	<iostream>
+	<string>
+	<winsock2.h>
+	<windows.h>
+	<C:\ConnectorC\include/mysql.h>
+
+1782622825 source:c:\users\admin\desktop\trabalhobd\trabalhobd\conexaobd.cpp
+	"conexaoBD.h"
+
+1782702479 source:c:\users\admin\desktop\trabalhobd\trabalhobd\aluno.cpp
+	"aluno.h"
+
+1782682052 source:c:\users\admin\desktop\trabalhobd\trabalhobd\professor.cpp
+	"professor.h"
+
+1782681114 source:c:\users\admin\desktop\trabalhobd\trabalhobd\pessoa.cpp
+	"pessoa.h"
+
+1782696137 c:\users\admin\desktop\trabalhobd\trabalhobd\pessoa.h
+	<string>
+
+1782703608 source:c:\users\admin\desktop\trabalhobd\trabalhobd\usuario.cpp
+	"usuario.h"
+
+1782702479 c:\users\admin\desktop\trabalhobd\trabalhobd\usuario.h
+	"conexaoBD.h"
+	"pessoa.h"
+	<string>
+
+1782700760 c:\users\admin\desktop\trabalhobd\trabalhobd\aluno.h
+	<string>
+	"usuario.h"
+
+1782696137 c:\users\admin\desktop\trabalhobd\trabalhobd\professor.h
+	<string>
+
