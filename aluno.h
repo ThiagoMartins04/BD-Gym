@@ -35,10 +35,10 @@ public:
             string pesoFormatado = row[1];
 
             for (char &c : alturaFormatado) {
-                if (c == '.') c = ',';
+                if (c == ',') c = '.';
             }
             for (char &c : pesoFormatado) {
-                if (c == '.') c = ',';
+                if (c == ',') c = '.';
             }
 
             this->id = atoi(row[0]);

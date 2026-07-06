@@ -1,20 +1,21 @@
 # depslib dependency file v1.0
-1782695856 source:c:\users\admin\desktop\trabalhobd\trabalhobd\main.cpp
+1783234118 source:c:\users\admin\desktop\trabalhobd\trabalhobd\main.cpp
 	<iostream>
 	<cstdlib>
 	"menu.h"
 	"conexaoBD.h"
 
-1782702559 source:c:\users\admin\desktop\trabalhobd\trabalhobd\menu.cpp
+1783234767 source:c:\users\admin\desktop\trabalhobd\trabalhobd\menu.cpp
 	"menu.h"
 	<iostream>
 
-1782705871 c:\users\admin\desktop\trabalhobd\trabalhobd\menu.h
+1783234765 c:\users\admin\desktop\trabalhobd\trabalhobd\menu.h
 	<cstdlib>
 	<string>
 	"conexaoBD.h"
 	"usuario.h"
 	"aluno.h"
+	<regex>
 
 1782683706 c:\users\admin\desktop\trabalhobd\trabalhobd\conexaobd.h
 	<cstdlib>
@@ -42,12 +43,12 @@
 1782703608 source:c:\users\admin\desktop\trabalhobd\trabalhobd\usuario.cpp
 	"usuario.h"
 
-1782702479 c:\users\admin\desktop\trabalhobd\trabalhobd\usuario.h
+1783224656 c:\users\admin\desktop\trabalhobd\trabalhobd\usuario.h
 	"conexaoBD.h"
 	"pessoa.h"
 	<string>
 
-1782700760 c:\users\admin\desktop\trabalhobd\trabalhobd\aluno.h
+1783235045 c:\users\admin\desktop\trabalhobd\trabalhobd\aluno.h
 	<string>
 	"usuario.h"
 

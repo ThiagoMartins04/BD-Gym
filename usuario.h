@@ -8,7 +8,7 @@ using namespace std;
 
 class Usuario : public Pessoa {
 private:
-    int id;
+    int id = 0;
     int id_pessoa;
     string dataCadastro;
     string login;

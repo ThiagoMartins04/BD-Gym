@@ -10,12 +10,16 @@ using namespace std;
 int main()
 {
     MYSQL* conexao = obterConexao();
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_CTYPE, "Portuguese");
+    setlocale(LC_NUMERIC, "C");
 
     Menu menu;
-    Usuario usuario;
+    Usuario usuario = Usuario();
 
-    usuario = menu.menuRegistro(conexao);
+    do {
+        usuario = menu.menuRegistro(conexao);
+    } while (usuario.getId() == 0);
+
 
     menu.menuPrincipal(usuario, conexao);
 
